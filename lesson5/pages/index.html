@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script src="http://jqueryvalidation.org/files/lib/jquery-1.11.1.js"></script>
+<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.0/jquery.validate.min.js" ></script>
+<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.0/additional-methods.min.js" ></script>
+
+<form class="cmxform" id="commentForm" method="post" action="">
+  <fieldset>
+    <legend></legend>
+    <p>
+      <label for="cname">Name</label>
+      <input id="cname" name="name" minlength="2" type="text" required/>
+    </p>
+    <p>
+      <label for="cemail">E-Mail (required)</label>
+      <input id="cemail" type="email" name="email" required/>
+    </p>
+    <p>
+      <label for="ccomment">Feedback content</label>
+      <textarea id="ccomment" name="comment" required></textarea>
+    </p>
+    <p>
+      <input class="submit" type="submit" value="Submit"/>
+    </p>
+  </fieldset>
+</form>
+<script>
+$("#commentForm").validate();
+</script>
+</body>
+</html>
