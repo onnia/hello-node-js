@@ -1,4 +1,6 @@
 // last-mod.js
+
+//Check this from the node api fs function
 var fs = require('fs');
 
 module.exports = function(filename) {
