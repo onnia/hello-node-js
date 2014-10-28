@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  div.loginbox
+    form(name="login", action="/login", method="post")
+      span Name
+      input(type="text", name="name", id="name")
+      span Email
+      input(type="text", name="email")
+      input(type="submit", value="send")
+      input(type="search", value="Moi moi katsellaan!", id="search")
