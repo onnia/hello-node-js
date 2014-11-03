@@ -9,6 +9,7 @@
   "author": "Onnia",
   "license": "ISC",
   "dependencies": {
-    "moment": "^2.8.3"
+    "moment": "^2.8.3",
+    "grunt":"*"
   }
 }
