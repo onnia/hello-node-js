@@ -1,0 +1,11 @@
+{
+    "contentType": null,
+    "headers": [],
+    "id": 1,
+    "redirectURL": null,
+    "stage": "end",
+    "status": null,
+    "statusText": null,
+    "time": "2014-11-04T18:52:16.410Z",
+    "url": "http://yle.fi/uutiset/"
+}
